@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="info Ticket" cloudDestinationProperty="info Ticket" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+  </component>
+  <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="BoxLayout" boxLayoutAxis="Y" >
+  </component>
+  <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="BoxLayout" boxLayoutAxis="Y" >
+  </component>
+  <component type="Button" name="Book" cloudDestinationProperty="Button" text="Book " >
+  </component>
+  <component type="Button" name="back" cloudDestinationProperty="Button1" text="Back" >
+  </component>
+</component>

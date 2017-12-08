@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="reservation" cloudDestinationProperty="reservation" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="date" cloudDestinationProperty="Date of recup" text="Date of the reception:" >
+      </component>
+      <component type="Picker" name="Picker" cloudDestinationProperty="Picker" text="1/9/17" >
+      </component>
+    </component>
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" text="Block:" >
+      </component>
+      <component type="ComboBox" name="ComboBox" cloudDestinationProperty="ComboBox" >
+        <stringItem value="Block A" />
+        <stringItem value="Block B" />
+        <stringItem value="Block C" />
+        <stringItem value="Block D" />
+      </component>
+    </component>
+    <component type="Container" name="Container3" cloudDestinationProperty="Container3" >
+      <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="Seat:" >
+      </component>
+      <component type="ComboBox" name="ComboBox1" cloudDestinationProperty="ComboBox1" >
+        <stringItem value="1" />
+        <stringItem value="2" />
+        <stringItem value="3" />
+        <stringItem value="4" />
+        <stringItem value="5" />
+        <stringItem value="6" />
+        <stringItem value="7" />
+        <stringItem value="10" />
+        <stringItem value="11" />
+        <stringItem value="12" />
+        <stringItem value="13" />
+        <stringItem value="14" />
+        <stringItem value="15" />
+        <stringItem value="16" />
+        <stringItem value="17" />
+        <stringItem value="18" />
+        <stringItem value="19" />
+        <stringItem value="20" />
+        <stringItem value="21" />
+        <stringItem value="22" />
+        <stringItem value="23" />
+        <stringItem value="25" />
+        <stringItem value="26" />
+        <stringItem value="27" />
+      </component>
+    </component>
+    <component type="Button" name="Button" cloudDestinationProperty="Button" text="book it" >
+    </component>
+    <component type="Button" name="Button1" cloudDestinationProperty="Button1" text="back" >
+    </component>
+  </component>
+</component>

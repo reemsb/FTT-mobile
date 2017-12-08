@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Hi" cloudDestinationProperty="Hi" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="cnt1" cloudDestinationProperty="cnt1" >
+    <component type="Label" name="lb" cloudDestinationProperty="lb" uiid="lb" text="" >
+    </component>
+  </component>
+  <component type="Container" name="cnt2" cloudDestinationProperty="cnt2" >
+  </component>
+</component>
